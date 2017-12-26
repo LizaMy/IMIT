@@ -1,5 +1,5 @@
 package ru.omsu.imit;
-
+//
 
 public class MaxRoot {
     private Polynom polynom;
@@ -24,8 +24,6 @@ public class MaxRoot {
         }
         return polynom.solve()[1];
     }
-//    public MaxRoot(int[] arr) throws ValueDoesntMatchException {
-//        polynom = new Polynom(arr);
-//    }
+
 
 }
